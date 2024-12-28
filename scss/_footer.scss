@@ -1,0 +1,167 @@
+/* Footer Home pages */
+.footer_area{
+    background: #1e1926;
+    padding-top: 130px;
+    .footer_inner{
+        padding-bottom: 90px;
+        .footer_logo{
+            padding-bottom: 30px;
+            p{
+                font: 400 16px/26px $lato;
+                color: rgba(255, 255, 255, 0.6);
+                padding: 70px 0 35px;
+                max-width: 390px; 
+            } 
+            address{
+                span{
+                    font: 400 15px/1 $lato;
+                    color: $hover;
+                }
+                p{
+                    padding: 0;
+                    color: #fff;
+                    padding-top: 20px;
+                }
+            }
+        }
+        .subscribe{
+            padding-top: 5px; 
+            max-width: 335px;
+            margin-left: 40px;
+            h4{
+                font: 600 18px/1 $ssp;
+                color: #fff; 
+                text-transform: uppercase;
+            } 
+            p{
+                font: 400 16px/26px $lato;
+                color: rgba(255, 255, 255, 0.6);
+                padding: 50px 0 25px;
+            }
+            h6{
+                font: 400 16px/26px $lato;
+                color: rgba(255, 255, 255, 0.6);
+                padding: 35px 0;
+                span{
+                    display: block;    
+                    color: #ce8506;
+                }
+            }
+            .input-group{
+                position: relative;
+                input{
+                    font: 400 16px/48px $lato;
+                    color: #fff;
+                    background: #272130;
+                    border-radius: 0;
+                    box-shadow: none;
+                    outline: none;
+                    padding: 0 20px;
+                    border: 0;
+                    width: 100%;
+                    border: 1px solid #272130;
+                }
+                .input-group-text{
+                    position: absolute;
+                    top: 3px;
+                    right: 3px;
+                    z-index: 3;
+                    color: #fff;
+                    font-size: 18px;
+                    background: $bc;
+                    line-height: 44px;
+                    padding: 0 25px;
+                    border: 0;
+                    border-radius: 0;
+                    display: block;
+                    cursor: pointer;  
+                }
+                
+                &:hover, &:focus{
+                    input{
+                        border-color: $hover;
+                    }
+                    .input-group-text{
+                        background: $hover;
+                    }
+                }
+            }
+        }
+        
+        .resources{ 
+            padding-left: 30px;
+            h4{
+                font: 600 18px/1 $ssp;
+                color: #fff; 
+                text-transform: uppercase;
+            }
+            .resources_list{
+                padding-top: 45px;
+                li{
+                    a{
+                        font: 400 16px/38px $lato;
+                        color: rgba(255, 255, 255, 0.6);
+                        &:hover, &:focus{
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copy_right{
+        display: block;
+        overflow: hidden;
+        background: #0e1424;
+        text-align: center;
+        p{
+            font: 400 15px/80px $lato;
+            color: #fff;
+            a{
+                color: $hover;
+                &:hover, &:focus{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/* End Footer Home pages */
+.scroll-top{
+    position: fixed;
+    right: 30px;
+    bottom: 15px; 
+    height: 50px;
+    width: 50px; 
+    cursor: pointer;
+    background: $bc;
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    &:hover, &:focus{
+        background: #ce8506;
+    } 
+    i{
+        &:before{
+            color: #fff;
+            font-size: 24px;
+            speak: none;
+            display: block;
+            -webkit-font-smoothing: subpixel-antialiased; 
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -webkit-animation: TopToBottom 0.3s forwards;
+            -moz-animation: TopToBottom 0.3s forwards;
+            animation: TopToBottom 0.3s forwards;
+        }
+    }
+    &:hover, &:focus{
+        color: $bc;
+        i:before{
+            -webkit-animation: BottomToTop 0.3s forwards;
+            -moz-animation: BottomToTop 0.3s forwards;
+            animation: BottomToTop 0.3s forwards;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+/* ------------------------------------------------------
+@File: Default Styles
+@Author: Themazine
+@Developed By: Emran Khan
+@Developer URL: http://emran-khan.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+------------------------------------------------------- */
+
+/* ======================================================
+@Template Name: Mora HTML template
+@Author: Themazine 
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ Prefix
+03/ Header
+04/ Banner
+05/ Post
+06/ Shop
+07/ About
+08/ From
+09/ News
+10/ Footer
+11/ Responsive 
+
+===================================================== */ 
+
+/*----------------------------------------------------*/
+@import "variables";
+/*----------------------------------------------------*/  
+@import "prefix";
+/*----------------------------------------------------*/ 
+@import "header";
+/*----------------------------------------------------*/  
+@import "banner";
+/*----------------------------------------------------*/   
+@import "post";
+/*----------------------------------------------------*/  
+@import "shop";
+/*----------------------------------------------------*/ 
+@import "about";
+/*----------------------------------------------------*/   
+@import "from";
+/*----------------------------------------------------*/   
+@import "news"; 
+/*----------------------------------------------------*/    
+@import "footer";
+/*----------------------------------------------------*/  
+@import "responsive";
+/*---------------------------------------------------- */  
+/*All CSS call*/
+@import "../css/bootstrap.min.css"; /* Bootstrap CSS */
+@import "../css/font-awesome.min.css"; /* Icon CSS */
+@import "../vendors/flat-icon/flaticon.css"; /* Flaticon CSS */ 
+@import "../vendors/animate-css/animate.css"; /* Animations CSS */   
+@import "../vendors/bootstrap-selector/nice-select.css"; /* bootstrap-select */   
+// Font family link
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:300,400,400i,500,600,700|Source+Sans+Pro:400,600,700');

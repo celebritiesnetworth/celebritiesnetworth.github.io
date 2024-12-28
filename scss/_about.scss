@@ -1,0 +1,92 @@
+/* about_content */
+.about_content{
+    display: block;
+    overflow: hidden;
+    padding-top: 100px;
+    h2{
+        font: 400 25px/42px $pop;
+        color: #1d2224;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 970px;
+        display: block;
+        padding-bottom: 85px;
+    }
+    img{
+        max-width: 100%;
+    }
+    p{
+        font: 400 18px/32px $lato;
+        color: $pfont; 
+        padding: 30px 70px 80px 0;
+    }
+    .mission_area{
+        .tab_nav{
+            border-right: 1px solid #dedede;
+            margin-right: 33px;
+            a{
+                font: 400 18px/42px $lato;
+                color: #4d4d4d;
+                display: block;
+                width: 100%;
+                &:hover, &:focus, &.active{
+                    color: $bc;
+                }
+            }
+        }
+        .tab-content{
+            .tab-pane{
+                h4{
+                    font: 500 22px/1 $pop;
+                    color: #000;
+                    border-bottom: 1px solid #dedede;
+                    display: inline-block;
+                    padding-bottom: 8px;
+                    margin-bottom: 35px;
+                }
+                p{
+                    padding: 20px 0 0; 
+                }
+            }
+        }
+    }
+}
+
+.topics_row{
+    padding: 100px 0 114px;
+    h2{
+        font: 500 36px/42px $pop;
+        color: $bc;
+        display: block;
+        padding-bottom: 60px;
+    }
+    a{
+        display: block;
+        color: #4d4d4d;
+        font: 400 20px/50px $lato;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 22px;
+        background: #f2f2f2;
+        &:hover, &:focus{
+            color: #fff;
+            background-image: -moz-linear-gradient( -178deg, rgb(145,122,252) 0%, rgb(246,164,41) 100%);
+            background-image: -webkit-linear-gradient( -178deg, rgb(145,122,252) 0%, rgb(246,164,41) 100%);
+            background-image: -ms-linear-gradient( -178deg, rgb(145,122,252) 0%, rgb(246,164,41) 100%);
+        }
+    }
+}
+.topic_area{
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    .topics_row{
+        padding: 70px 0;
+    }
+}
+.ta_2 .topics_row{
+    padding-top: 40px;
+}
+/* about_content */
+ 
